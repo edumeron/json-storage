@@ -134,14 +134,14 @@ storage.toJSON();
 
 `npm test`
 
-[build-badge]: https://img.shields.io/travis/user/json-storage/master.png?style=flat-square
-[build]: https://travis-ci.org/user/json-storage
+[build-badge]: https://img.shields.io/travis/edumeron/json-storage/master.png?style=flat-square
+[build]: https://travis-ci.org/edumeron/json-storage
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/json-storage/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/json-storage
+[coveralls-badge]: https://img.shields.io/coveralls/edumeron/json-storage/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/edumeron/json-storage
 
 [standard-badge]: https://img.shields.io/badge/code%20style-standard-green.svg?longCache=true&style=flat-square
 [standard]: https://standardjs.com
