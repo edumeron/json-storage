@@ -1,7 +1,7 @@
 {
-  "name": "json-storage",
-  "version": "1.0.0",
-  "description": "Describe json-storage here",
+  "name": "@edumeron/json-storage",
+  "version": "0.0.1",
+  "description": "A tiny module to manage localStorage",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -13,17 +13,35 @@
     "build": "nwb build-web-module",
     "clean": "nwb clean-module",
     "prepublishOnly": "npm run build",
-    "test": "nwb test",
+    "test": "npm run standard && nwb test",
     "test:coverage": "nwb test --coverage",
-    "test:watch": "nwb test --server"
+    "test:watch": "nwb test --server",
+    "standard": "standard src/*.js tests/*.js --env mocha"
   },
   "dependencies": {
+    "lodash.isfunction": "^3.0.9"
   },
   "devDependencies": {
-    "nwb": "0.23.x"
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "expect": "^23.6.0",
+    "nwb": "0.23.x",
+    "object-path": "^0.11.4",
+    "standard": "^12.0.1"
   },
-  "author": "",
-  "homepage": "",
+  "keywords": [
+    "localstorage",
+    "json",
+    "sync",
+    "store",
+    "storage"
+  ],
+  "author": "Guilherme Santiago",
   "license": "MIT",
-  "repository": ""
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edumeron/json-storage"
+  },
+  "peerDependencies": {
+    "object-path": "^0.11.4"
+  }
 }

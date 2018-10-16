@@ -14,3 +14,6 @@ after_success:
 branches:
   only:
     - master
+
+service_name: travis-pro
+repo_token: tk2L09W8DpPOUdaSKsOIxUEwNZNiBRTqt
